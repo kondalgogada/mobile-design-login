@@ -7,13 +7,14 @@ import { logging } from 'protractor';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  username:string;
-  password:string;
+  username: string;
+  password: string;
 
 
-login(){
-  console.log("username: "+ this.username);
+login() {
+  console.log('Username: ' + this.username);
 
- console.log("password: "+ this.password);
+  console.log('Password: ' + this.password);
 }
 }
+
